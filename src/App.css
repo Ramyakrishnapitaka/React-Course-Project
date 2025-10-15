@@ -1,5 +1,5 @@
 .header-section {
-  background-color: #5dade2; /* Blue background */
+  background-color: #5dade2; 
   padding: 60px 20px;
 }
 
@@ -8,19 +8,19 @@
   width: 140px;
 }
 
-/* Popular Title */
+
 .popular-title {
   font-weight: bold;
   font-size: 1.25rem;
   color: #000;
 }
 
-/* Course Cards Container */
+
 .course-cards {
   gap: 20px;
 }
 
-/* Card Styling */
+
 .course-card {
   width: 12rem;
   border-radius: 6px;
@@ -29,7 +29,7 @@
   border: 1px solid #e3e3e3;
 }
 
-/* Icon Background */
+
 .icon-bg {
   width: 60px;
   height: 60px;
@@ -40,13 +40,13 @@
   margin-bottom: 10px;
 }
 
-/* Icon Images */
+
 .icon-image {
   max-width: 35px;
   max-height: 35px;
 }
 
-/* Background colors for icons */
+
 .react-bg {
   background-color: #61dafb;
 }
@@ -57,7 +57,7 @@
   background-color: #7b7779;
 }
 
-/* Course Title and Subtitle */
+
 .course-title {
   font-weight: 600;
   margin: 0 0 4px 0;
@@ -69,7 +69,7 @@
   margin-bottom: 15px;
 }
 
-/* Enroll Button */
+
 .enroll-btn {
   width: 100%;
   font-weight: 600;
@@ -84,7 +84,7 @@
 }
 
 .signup-text a {
-  color: #0d6efd; /* Bootstrap primary blue */
+  color: #0d6efd; 
   text-decoration: none;
 }
 
@@ -121,13 +121,13 @@
   margin: auto;
 }
 
-/* Welcome Header */
+
 .welcome-header {
   font-weight: bold;
   font-size: 1.8rem;
 }
 
-/* Summary Cards */
+
 .summary-card {
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -138,7 +138,7 @@
   margin-top: 10px;
 }
 
-/* Course Cards */
+
 .course-card {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -160,7 +160,7 @@
 .card:hover {
   transform: translateY(-4px);
 }
-/* src/components/Login.css */
+
 .card {
   border-radius: 10px;
 }
