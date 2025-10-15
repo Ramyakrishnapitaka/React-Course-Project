@@ -73,7 +73,7 @@ function Courses() {
     <section className="container my-5">
       <h2 className="fw-bold mb-4">Courses</h2>
 
-      {/* Filters */}
+      
       <div className="d-flex justify-content-between mb-4">
         <input
           type="text"
@@ -96,7 +96,7 @@ function Courses() {
         </select>
       </div>
 
-      {/* Course Cards */}
+     
       <div className="row justify-content-center">
         {filteredCourses.length === 0 ? (
           <p className="text-center">No courses found.</p>
