@@ -6,10 +6,7 @@ function Navbar() {
     <div>
     <nav className="navbar navbar-expand-lg bg-secondary-subtle ">
       <div className="container-fluid">
-        {/* Brand on the left */}
         <Link className="navbar-brand" to="/home">Navbar</Link>
-
-        {/* Toggler for mobile */}
         <button
           className="navbar-toggler"
           type="button"
@@ -21,8 +18,6 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        {/* Links on the right */}
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
            <li className="nav-item">
