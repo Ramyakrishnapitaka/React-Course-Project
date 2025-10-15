@@ -34,8 +34,6 @@ function Brand() {
             <p className="course-subtitle">Frontend</p>
             <button className="btn btn-success btn-sm enroll-btn" onClick={gocourse}>View Details</button>
           </div>
-
-          {/* Course Card 2 */}
           <div className="card course-card p-3 text-center" style={{width:"18rem"}}>
             <div className="icon-bg node-bg mx-auto mb-3">
               <img src={node} alt="Intro to Python" className="icon-image"/>
@@ -44,8 +42,6 @@ function Brand() {
             <p className="course-subtitle">Backend</p>
             <button className="btn btn-success btn-sm enroll-btn" onClick={gocourse}>View Details</button>
           </div>
-
-          {/* Course Card 3 */}
           <div className="card course-card p-3 text-center" style={{width:"18rem"}}>
             <div className="icon-bg design-bg mx-auto mb-3">
               <img src={mongodb} alt="UI/UX Design" className="icon-image"/>
