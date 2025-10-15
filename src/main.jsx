@@ -15,7 +15,7 @@ import Login from './components/login.jsx';
 import Signup from './components/signup.jsx';
 import Brand from './components/loadpage.jsx';
 
-import { CourseProvider } from './components/course-context.jsx'; // make sure spelling is consistent
+import { CourseProvider } from './components/course-context.jsx';
 
 const router = createBrowserRouter([
   {
