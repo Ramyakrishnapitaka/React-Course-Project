@@ -17,7 +17,7 @@ function Home() {
   return (
     <div>
       <header className="header-section text-center text-white">
-        <h1>Welcome to <strong>SkillTracker</strong></h1>
+        <h1>Welcome to <strong>UpSkilled</strong></h1>
         <p className="lead">Track your skills & courses</p>
         <button className="btn btn-success get-started-btn" onClick={login}>Get Started</button>
       </header>
