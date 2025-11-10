@@ -1,6 +1,9 @@
+/* ========== HEADER SECTION ========== */
 .header-section {
-  background-color: #5dade2; 
+  background-color: #5dade2; /* Blue background */
   padding: 60px 20px;
+  text-align: center;
+  color: #fff;
 }
 
 .get-started-btn {
@@ -8,28 +11,41 @@
   width: 140px;
 }
 
-
+/* ========== POPULAR COURSES SECTION ========== */
 .popular-title {
   font-weight: bold;
   font-size: 1.25rem;
   color: #000;
 }
 
-
+/* Container for all cards */
 .course-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
+  align-items: stretch;
 }
 
-
+/* ========== COURSE CARD ========== */
 .course-card {
-  width: 12rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
   background-color: #fff;
   border: 1px solid #e3e3e3;
+  transition: transform 0.2s ease;
 }
 
+.course-card:hover {
+  transform: translateY(-4px);
+}
 
+/* ========== ICON SECTION ========== */
 .icon-bg {
   width: 60px;
   height: 60px;
@@ -37,16 +53,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
 }
-
 
 .icon-image {
   max-width: 35px;
   max-height: 35px;
 }
 
-
+/* Background colors for icons */
 .react-bg {
   background-color: #61dafb;
 }
@@ -57,7 +72,7 @@
   background-color: #7b7779;
 }
 
-
+/* ========== COURSE TITLES ========== */
 .course-title {
   font-weight: 600;
   margin: 0 0 4px 0;
@@ -69,28 +84,15 @@
   margin-bottom: 15px;
 }
 
-
+/* ========== ENROLL BUTTON ========== */
 .enroll-btn {
+  margin-top: auto;
   width: 100%;
   font-weight: 600;
-}
-.login-container {
-  max-width: 320px;
-  margin: 50px auto;
+  border-radius: 6px;
 }
 
-.signup-text {
-  font-size: 0.9rem;
-}
-
-.signup-text a {
-  color: #0d6efd; 
-  text-decoration: none;
-}
-
-.signup-text a:hover {
-  text-decoration: underline;
-}
+/* ========== LOGIN SECTION ========== */
 .login-container {
   max-width: 400px;
   margin: 100px auto;
@@ -100,37 +102,41 @@
   background-color: #f8f9fa;
 }
 
-.login-container input {
-  height: 45px;
-}
-
+.login-container input,
 .login-container button {
   height: 45px;
 }
 
+.signup-text {
+  font-size: 0.9rem;
+}
+
 .signup-text a {
-  text-decoration: none;
   color: #0d6efd;
+  text-decoration: none;
 }
 
 .signup-text a:hover {
   text-decoration: underline;
 }
+
+/* ========== DASHBOARD SECTION ========== */
 .dashboard-container {
   max-width: 900px;
   margin: auto;
+  background-color: #f8f9fa;
+  min-height: 100vh;
 }
-
 
 .welcome-header {
   font-weight: bold;
   font-size: 1.8rem;
 }
 
-
 .summary-card {
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .progress {
@@ -138,11 +144,16 @@
   margin-top: 10px;
 }
 
-
-.course-card {
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+/* ========== GENERAL CARD STYLING ========== */
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
 }
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
 .card img {
   display: block;
   margin: 0 auto;
@@ -153,48 +164,19 @@
   font-weight: bold;
 }
 
-.card {
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-.card {
-  border-radius: 10px;
-}
-
-input::placeholder {
-  color: #aaa;
-}
+/* ========== BODY ========== */
 body {
   background-color: #f8f9fa;
 }
 
-.card {
-  border-radius: 12px;
-  max-width: 400px;
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .course-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course-card {
+    width: 90%;
+  }
 }
-.course-card {
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.dashboard-container {
-  background-color: #f8f9fa;
-  min-height: 100vh;
-}
-
-.welcome-header {
-  font-weight: bold;
-}
-
-.summary-card {
-  border: none;
-  border-radius: 10px;
-}
-
-
-
-
